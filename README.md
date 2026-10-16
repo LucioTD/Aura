@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="docs/assets/banner.png" alt="Aura: local music player with a talking AI DJ" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.svg">
+    <img src="docs/assets/banner.svg" alt="Aura: local music player with a talking AI DJ" width="100%">
+  </picture>
 </p>
 
 <p align="center">
@@ -7,19 +10,18 @@
   <br>
   Nothing leaves your machine except an optional lyrics lookup.
   <br><br>
-  <a href="https://github.com/Lucio73-collab/Aura/issues/new?template=bug_report.yml">Report bug</a>
+  <a href="https://github.com/LucioTD/Aura/issues/new?template=bug_report.yml">Report bug</a>
   ·
-  <a href="https://github.com/Lucio73-collab/Aura/issues/new?template=feature_request.yml">Request feature</a>
+  <a href="https://github.com/LucioTD/Aura/issues/new?template=feature_request.yml">Request feature</a>
   ·
-  <a href="https://github.com/Lucio73-collab/Aura/releases">Releases</a>
+  <a href="https://github.com/LucioTD/Aura/releases">Releases</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Lucio73-collab/Aura/actions/workflows/ci.yml"><img src="https://github.com/Lucio73-collab/Aura/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <img src="https://img.shields.io/badge/version-1.0.0-a6e3a1?style=flat-square&labelColor=111111" alt="Version 1.0.0">
-  <img src="https://img.shields.io/badge/Electron-43-111111?style=flat-square&logo=electron" alt="Electron 43">
-  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-333333?style=flat-square" alt="Windows and Linux">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-333333?style=flat-square" alt="MIT license"></a>
+  <a href="https://github.com/LucioTD/Aura/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/LucioTD/Aura/ci.yml?branch=main&label=ci&style=flat-square&labelColor=060606" alt="CI status"></a>
+  <a href="https://github.com/LucioTD/Aura/releases/latest"><img src="https://img.shields.io/github/v/release/LucioTD/Aura?label=release&style=flat-square&labelColor=060606&color=1254c6" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-3a3a3a?style=flat-square&labelColor=060606" alt="Windows and Linux">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-3a3a3a?style=flat-square&labelColor=060606" alt="MIT license"></a>
 </p>
 
 <!-- Screenshot: save a capture of the main window as docs/assets/screenshot.png, then remove this comment wrapper.
@@ -31,7 +33,7 @@
 ## Quick start
 
 1. Install Node.js LTS (nodejs.org) if you don't have it
-2. Get the code: `git clone https://github.com/Lucio73-collab/Aura.git && cd Aura`
+2. Get the code: `git clone https://github.com/LucioTD/Aura.git && cd Aura`
 3. `npm install` (first run downloads Electron, takes a minute)
 4. `npm start`
 
